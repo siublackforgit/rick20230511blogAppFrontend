@@ -5,6 +5,8 @@ import {
   Outlet,
 } from "react-router-dom";
 
+import "./style.scss"
+
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import Home from "./page/Home"
@@ -55,8 +57,10 @@ const router = createBrowserRouter(
 
 function App() {
   return (
-    <div >
-      <RouterProvider router={router} />
+    <div className="app">
+      <div class="container">
+        <RouterProvider router={router} />
+      </div>
     </div>
   );
 }
