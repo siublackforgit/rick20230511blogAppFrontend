@@ -28,6 +28,11 @@ const Navbar = () => {
           <Link className="link" to="/?cat=food">
             <h6>FOOD</h6>
           </Link>
+          <span>John</span>
+          <span>Logout</span>
+          <span className="write">
+            <Link className="link" to="/write">Write</Link>
+          </span>
         </div>
       </div>
     </div>
